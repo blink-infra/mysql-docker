@@ -1,4 +1,4 @@
-FROM mysql:5.6
+FROM circleci/mysql:5.6-ram
 
 ADD blink.cnf /etc/mysql/conf.d/blink.cnf
 
